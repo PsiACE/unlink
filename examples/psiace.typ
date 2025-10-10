@@ -14,6 +14,14 @@
   tagline: (configuration.tagline),
   [
 
+    == Achievements/Certifications
+
+    #for achievement in configuration.achievements [
+      === #achievement.name
+  
+      - #achievement.description
+    ]
+
     == Experience
 
     #for job in configuration.jobs [
@@ -24,14 +32,6 @@
       #for point in job.description [
         - #point
       ]
-    ]
-
-    == Achievements/Certifications
-
-    #for achievement in configuration.achievements [
-      === #achievement.name
-  
-      - #achievement.description
     ]
   ],
   [

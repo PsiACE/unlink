@@ -134,7 +134,7 @@ achievements:
     description: 作为 Apache OpenDAL 初始贡献者与 PMC 成员推动其晋升为 Apache 顶级项目，并以 Databend 创始团队核心身份搭建云数仓能力、文档与社区。
 
   - name: "开源创新与上游优先"
-    description: 提出并落地 LlamaIndex 社区 MCP 兼容层方案，贡献 Zed 编辑器首个 agent-client-protocol Python 实现，持续向上游反馈实践。
+    description: 提出并落地 LlamaIndex 社区第一个 MCP 兼容层方案，贡献 Zed 编辑器首个 agent-client-protocol Python 实现，持续向上游反馈实践。
 
   - name: "全球技术大会演讲"
     description: 在 ApacheCon Asia、PyCon China、Rust China Conf、Kubernetes Community Days 等大会分享开源数据基础设施与生成式 AI 实践，影响开发者生态。
