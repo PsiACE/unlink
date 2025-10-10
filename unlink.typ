@@ -1,5 +1,8 @@
 #let primary_colour = rgb("#3730a3")
 #let link_colour = rgb("#12348e")
+#let body_font_primary = "Noto Sans"
+#let body_font_cjk = "Noto Sans SC"
+#let body_font_stack = (body_font_primary, body_font_cjk)
 
 #let icon(name, shift: 1.5pt) = {
   box(
@@ -94,7 +97,10 @@
     title: name + "'s CV",
     author: name,
   )
-  set text(9.8pt, font: "PT Sans")
+  set text(
+    9.8pt,
+    font: body_font_stack,
+  )
   set page(
     margin: (x: 1.2cm, y: 1.2cm),
   )

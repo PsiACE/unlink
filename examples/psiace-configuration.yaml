@@ -1,0 +1,143 @@
+contacts:
+  name: 尚卓燃 ("PsiACE")
+  title: Apache OpenDAL PMC · GenAI 工程师
+  email: psiace@apache.org
+  address: "上海"
+  location: 上海
+  linkedin:
+    url: https://www.linkedin.com/in/psiace/
+    displayText: PsiACE
+  github:
+    url: https://github.com/PsiACE
+    displayText: "@PsiACE"
+  website:
+    url: https://psiace.me
+    displayText: psiace.me
+  twitter:
+    url: https://twitter.com/repsiace
+    displayText: "@repsiace"
+
+position: Apache OpenDAL PMC · GenAI 工程师
+
+tagline: 开源工程师，专注数据基础设施与生成式 AI 的结合。Apache OpenDAL PMC 成员，Databend 创始团队早期核心 Contributor，现于 NebulaGraph 构建 GraphRAG 与 GenAI 平台。致力于让复杂的数据与 AI 技术被更多开发者可靠复用。
+
+jobs:
+  - position: GenAI 工程师
+    company:
+      name: Vesoft Inc. (NebulaGraph)
+      link: https://www.nebula-graph.io/
+    product:
+      name: NebulaGraph
+      link: https://github.com/vesoft-inc/nebula
+    description:
+      - 规划 NebulaGraph 与生成式 AI 的产品路线，构建 GraphRAG、智能问答与推荐场景
+      - 主导 NebulaGraph GenAI Platform 的实现，打通 LLM 工程链路
+      - 设计并落地 Fusion GraphRAG ，与其他公开 GraphRAG 方案相比在初始可用时间和问答质量上处于领先水平
+    from: "2024 年 9 月"
+    to: "至今"
+    tags:
+      - GenAI
+      - 图数据库
+      - GraphRAG
+    location: 中国上海
+
+  - position: PMC 成员 & Maintainer
+    company:
+      name: Apache OpenDAL
+      link: https://opendal.apache.org/
+    product:
+      name: OpenDAL
+      link: https://github.com/apache/opendal
+    description:
+      - 参与迭代统一数据访问层 OpenDAL 的架构设计与版本发布
+      - 审阅关键 PR 与架构设计，完善缓存、重试、可观测性等统一数据访问能力
+      - 持续推动社区发展，连续多年 OSPP 社区联络人
+    from: "2022 年"
+    to: "至今"
+    tags:
+      - Apache Software Foundation
+      - 多云存储
+      - Developer Experience
+    location: 远程
+
+  - position: 核心研发工程师/社区 KOL
+    company:
+      name: Databend Labs
+      link: https://www.databend.com/
+    product:
+      name: Databend
+      link: https://github.com/datafuselabs/databend
+    description:
+      - 作为云原生数据仓库创始团队成员，搭建查询执行与存储接口的基线能力
+      - 推动与 lakeFS 、KubeSphere 等生态集成，持续布道/社区运营
+      - 从 0 到 1 构建文档、示例，提升开发者体验与贡献者留存，从 800+ star 增长到 8000+
+    from: "2021 年 7 月"
+    to: "2024 年 8 月"
+    tags:
+      - 云原生数据仓库
+      - 分布式系统
+      - Rust
+    location: 远程
+
+objective: 持续在数据访问、分布式系统与生成式 AI 的交汇处打造可信的开源产品，连接社区、用户与商业团队，让复杂基础设施以开发者友好的方式落地全球场景。
+
+education:
+  - place:
+      name: 澳门科技大学
+      link: https://www.must.edu.mo/
+    degree: 硕士
+    major: 应用数学与数据科学
+    track: 学习型缓存，大模型应用
+    from: "2022 年 9 月"
+    to: "2024 年 8 月"
+    location: 中国澳门
+
+  - place:
+      name: 华中农业大学
+      link: https://www.hzau.edu.cn/
+    degree: 学士
+    major: 计算机科学与技术
+    track: 数据库
+    from: "2017 年 9 月"
+    to: "2021 年 6 月"
+    location: 中国武汉
+
+skills:
+  - Apache OpenDAL
+  - Databend
+  - NebulaGraph
+  - Apache Arrow / Parquet
+  - GraphRAG
+  - Model Context Protocol
+  - 对象存储 & 多云数据湖
+  - 云原生数据仓库
+  - 查询执行与优化
+  - LLM 应用工程
+  - 技术布道与开发者生态
+
+methodology:
+  - Apache Way 与开放协作
+  - 数据驱动的决策与评估
+  - 可观测性优先的系统设计
+  - 以开发者体验为中心
+  - 持续交付与快速迭代
+
+tools:
+  - Rust 工具链 (Cargo, Clippy, fmt)
+  - Python / uv / FastAPI / LlamaIndex
+  - Kubernetes & Docker
+  - GitHub Actions / CI-CD
+  - Prometheus / Grafana
+
+achievements:
+  - name: "从 0 到 1 精神"
+    description: 作为 Apache OpenDAL 初始贡献者与 PMC 成员推动其晋升为 Apache 顶级项目，并以 Databend 创始团队核心身份搭建云数仓能力、文档与社区。
+
+  - name: "开源创新与上游优先"
+    description: 提出并落地 LlamaIndex 社区 MCP 兼容层方案，贡献 Zed 编辑器首个 agent-client-protocol Python 实现，持续向上游反馈实践。
+
+  - name: "全球技术大会演讲"
+    description: 在 ApacheCon Asia、PyCon China、Rust China Conf、Kubernetes Community Days 等大会分享开源数据基础设施与生成式 AI 实践，影响开发者生态。
+
+  - name: "公共写作与 Slides"
+    description: 定期发表《Agent Has No Secret》《Self-Bootstrapping Coding Agent in Python》等技术文章与演讲稿，沉淀生成式 AI 与数据系统工程经验。
