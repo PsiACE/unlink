@@ -1,30 +1,30 @@
 #import "../unlink.typ": vantage, term, skill, styled-link
 #let configuration = yaml("psiace-configuration.yaml")
 
-#vantage(
-  name: configuration.contacts.name,
-  position: configuration.position,
+#let render(cfg) = vantage(
+  name: cfg.contacts.name,
+  position: cfg.position,
   links: (
-    (name: "email", link: "mailto:"+ configuration.contacts.email),
-    (name: "website", link: configuration.contacts.website.url, display: configuration.contacts.website.displayText),
-    (name: "github", link: configuration.contacts.github.url, display: configuration.contacts.github.displayText),
-    (name: "linkedin", link: configuration.contacts.linkedin.url, display: configuration.contacts.linkedin.displayText),
-    (name: "location", link: "", display: configuration.contacts.address)
+    (name: "email", link: "mailto:"+ cfg.contacts.email),
+    (name: "website", link: cfg.contacts.website.url, display: cfg.contacts.website.displayText),
+    (name: "github", link: cfg.contacts.github.url, display: cfg.contacts.github.displayText),
+    (name: "linkedin", link: cfg.contacts.linkedin.url, display: cfg.contacts.linkedin.displayText),
+    (name: "location", link: "https://maps.google.com/?q=" + cfg.contacts.address, display: cfg.contacts.address)
   ),
-  tagline: (configuration.tagline),
+  tagline: (cfg.tagline),
   [
 
     == Achievements/Certifications
 
-    #for achievement in configuration.achievements [
+    #for achievement in cfg.achievements [
       === #achievement.name
-  
+
       - #achievement.description
     ]
 
     == Experience
 
-    #for job in configuration.jobs [
+    #for job in cfg.jobs [
       === #job.position \
       _#link(job.company.link)[#job.company.name]_ - #styled-link(job.product.link)[#job.product.name] \
       #term[#job.from --- #job.to][#job.location]
@@ -37,12 +37,12 @@
   [
     == Objective
 
-    #configuration.objective
+    #cfg.objective
 
 
     == Education
 
-    #for edu in configuration.education [
+    #for edu in cfg.education [
       === #if edu.place.link != "" [
         #link(edu.place.link)[#edu.place.name]\
       ] else [
@@ -57,18 +57,22 @@
 
     == Skills/Exposure
 
-    #for skill in configuration.skills [
-      • #skill
+    #for skill in cfg.skills [
+      • #skill \
     ]
 
     == Methodology/Approach
-    #for method in configuration.methodology [
-      • #method
+    #for method in cfg.methodology [
+      • #method \
     ]
 
     == Tools
-    #for tool in configuration.tools [
-      • #tool
+    #for tool in cfg.tools [
+      • #tool \
     ]
   ]
 )
+
+#render(configuration.zh)
+#pagebreak()
+#render(configuration.en)

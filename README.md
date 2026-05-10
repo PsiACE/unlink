@@ -30,10 +30,12 @@ Check [example.ty](./examples/example.typ) to get started. The following screens
    Use the following command to render your CV:
 
    ```bash
-   typst compile examples/example.typ --root .
+   typst compile examples/example.typ --root . --font-path fonts/
    ```
 
-   This will generate a PDF output in the same directory.
+   This will generate a PDF output in the same directory. The `--font-path fonts/` flag loads the bundled fonts (e.g., Alibaba PuHuiTi, Noto Sans, Noto Sans SC) so the template renders consistently regardless of the system fonts installed.
+
+   For a multi-language resume, keep all language variants in a single YAML file with top-level keys (e.g., `zh:` and `en:`) and call `render()` once per variant in your `.typ` so that one compilation produces a single multi-page PDF (see `examples/psiace.typ` and `examples/psiace-configuration.yaml`).
 
 4. **Edit your CV**:
 

@@ -1,8 +1,9 @@
 #let primary_colour = rgb("#3730a3")
 #let link_colour = rgb("#12348e")
-#let body_font_primary = "Noto Sans"
-#let body_font_cjk = "Noto Sans SC"
-#let body_font_stack = (body_font_primary, body_font_cjk)
+#let body_font_primary = "Alibaba PuHuiTi"
+#let body_font_latin_fallback = "Noto Sans"
+#let body_font_cjk_fallback = "Noto Sans SC"
+#let body_font_stack = (body_font_primary, body_font_latin_fallback, body_font_cjk_fallback)
 
 #let icon(name, shift: 1.5pt) = {
   box(
