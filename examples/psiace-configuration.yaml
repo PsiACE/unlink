@@ -1,7 +1,7 @@
 zh:
   contacts:
     name: 尚卓燃 ("PsiACE")
-    title: ASF Member | Open Source Engineer @ OceanBase (Ant Group)
+    title: Agent 系统工程师 | OceanBase（蚂蚁集团）高级工程师
     email: psiace@apache.org
     address: "杭州"
     location: 杭州
@@ -18,45 +18,43 @@ zh:
       url: https://twitter.com/repsiace
       displayText: "@repsiace"
 
-  position: ASF Member · Senior Engineer @ OceanBase (Ant Group)
+  position: Agent 系统工程师 · OceanBase（蚂蚁集团）高级工程师 · ASF Member
 
-  tagline: Apache 软件基金会 Member，开源工程师，专注数据基础设施与生成式 AI 的结合。曾在 Databend 创始团队负责查询与存储基线，在 NebulaGraph 构建 GraphRAG 与 GenAI 平台。
+  tagline: Agent 系统工程师，现负责 OceanBase 的上下文产品、数据库原生智能体能力与开源工具链。此前参与 Databend 核心系统研发，并在 NebulaGraph 负责 GraphRAG 与 GenAI 平台工程。
 
   jobs:
     - position: 高级工程师
       company:
         name: OceanBase（蚂蚁集团）
         link: https://www.oceanbase.com/
-      product:
-        name: AgentSeek
-        link: https://github.com/ob-labs/agentseek
       description:
-        - 主导开发 AgentSeek ，围绕 OceanBase 生态打造数据库原生的智能体能力与开源工具链。
-        - 推动 AI / Agent 能力与 OceanBase 开源生态的深度融合，参与社区运营与上下游协作，扩大开源影响力。
+        - 负责 OceanBase 面向 Agent 的上下文产品建设，研发数据库原生的智能体能力与开源工具链。
+        - 推动 AI / Agent 能力与 OceanBase 开源生态融合，改进相关工具的开发者体验，推进上下游协作。
       from: "2025 年 12 月"
       to: "至今"
       tags:
-        - AI / Agent
-        - 开源生态
+        - Agent 工程
+        - 上下文工程
         - 数据库
       location: 中国杭州
 
     - position: GenAI 平台工程师
       company:
-        name: Vesoft Inc. (NebulaGraph)
-        link: https://www.nebula-graph.io/
+        name: Vesoft Inc.
+        link: ""
       product:
         name: NebulaGraph
-        link: https://github.com/vesoft-inc/nebula
+        link: https://www.nebula-graph.io/
+        parenthesized: true
       description:
-        - 主导 NebulaGraph GenAI 平台的工程化实践，面向复杂业务领域问答优化上下文构建流程。
-        - 合作设计并落地 FusionGraphRAG 方案，业务场景问答精度稳定在 ～95% 区间，对比公开 GraphRAG 基线，在相同算力下实现首答可用时间缩短 80%。
+        - 负责 NebulaGraph GenAI 平台工程化，面向复杂领域问答建设上下文构建与检索链路。
+        - 负责 Fusion GraphRAG 的设计与落地，将方案集成到可部署的领域问答系统中。
       from: "2024 年 9 月"
       to: "2025 年 12 月"
       tags:
-        - GenAI
-        - 图数据库
         - GraphRAG
+        - 上下文工程
+        - 图数据库
       location: 中国上海
 
     - position: 核心研发工程师
@@ -67,8 +65,8 @@ zh:
         name: Databend
         link: https://github.com/datafuselabs/databend
       description:
-        - 创始团队成员之一，参与历次重大代码重构与架构演进，主导模块化拆分改造和编译时性能优化，设计并主导第一个持续 benchmark 方案落地。
-        - 推动与 HuggingFace、lakeFS、KubeSphere 等生态集成，扩大数据湖/云原生场景的适配面。
+        - 创始团队成员之一，参与重大架构演进，主导模块化拆分、编译性能优化和首个持续 benchmark 方案。
+        - 推动与 HuggingFace、lakeFS、KubeSphere 等项目集成，扩展数据湖与云原生场景的适配范围。
       from: "2021 年 7 月"
       to: "2024 年 8 月"
       tags:
@@ -77,7 +75,7 @@ zh:
         - Rust
       location: 远程
 
-  objective: 打造可信的开源产品，连接社区、用户与商业团队，让复杂基础设施以开发者友好的方式落地全球场景。
+  objective: 构建面向生产环境的 Agent 系统，让上下文与执行状态可管理、可追踪，并将相关能力沉淀为可长期维护的产品和开放协议。
 
   education:
     - place:
@@ -101,41 +99,41 @@ zh:
       location: 中国武汉
 
   skills:
-    - AI / Agent 工程
-    - 数据湖仓 / 对象存储
-    - 图数据库 / GraphRAG
-    - Apache 项目维护与贡献
-    - 开发者生态与技术布道
+    - Agent Runtime / 上下文工程
+    - Agent 协议与互操作
+    - RAG / GraphRAG 与评测
+    - 分布式系统 / 数据基础设施
 
   methodology:
-    - Apache Way 与开放协作
+    - 显式状态与故障恢复
+    - 评测驱动迭代
     - 以开发者体验为中心
-    - 数据驱动决策
-    - 持续交付
+    - Apache Way 与开放协作
 
   tools:
     - Rust / Python
+    - LLM API / Tool Calling
+    - ACP / MCP
     - Kubernetes / Docker
     - GitHub Actions
-    - MCP / ACP
 
   achievements:
-    - name: "AI / Agent 与开源生态的融合"
-      description: Agent Client Protocol Python SDK 创建者与维护者，月下载量近千万，被 Kimi、Mistral 的产品广泛使用；bub 的主要维护者之一，一个面向真实多人协作场景的开源 Agent 框架。
+    - name: "Agent Client Protocol Python SDK"
+      description: 创建并维护 ACP Python SDK，为 Agent 与编辑器、客户端的互操作提供类型化 schema、异步 transport 和生命周期抽象。累计下载超 1 亿，被 kimi-cli、mistral-vibe 等产品使用。
 
-    - name: "ASF Member & 推动 Apache OpenDAL 进入顶级项目"
-      description: 当选 Apache 软件基金会 Member ，多个 Apache 项目的 Committer 和贡献者，参与 OpenDAL 从孵化到毕业为 Apache 顶级项目的全过程，已在 LanceDB、Milvus 等项目中规模化使用。
+    - name: "Bub 与 tape.systems"
+      description: 设计 Bub，一个面向共享环境与长期协作的 hook-first Agent runtime；提出以只追加记录组织 Agent 历史、状态与上下文的 tape 模型，已用于 Bub 与 DeepChat。
 
-    - name: "数据基础设施的开源运营"
-      description: 主导 Databend 开发者关系与社区运营，GitHub Star 由 800+ 增长至 8000+ ；建立贡献流程与版本节奏，多年担任 OSPP 社区联络人，持续培育新贡献者。
+    - name: "Fusion GraphRAG"
+      description: 负责 Fusion GraphRAG 的设计与交付，选定业务场景问答精度约 95%；同等算力下，相比公开基线将首答可用时间缩短 80%。
 
-    - name: "全球技术分享与写作"
-      description: 在 ApacheCon Asia、PyCon China、Rust China Conf、Kubernetes Community Days 等大会分享数据基础设施与 GenAI / Agent 工程实践。
+    - name: "ASF Member 与 Apache OpenDAL"
+      description: 作为 ASF Member 和多个 Apache 项目的 Committer 或贡献者，参与 Apache OpenDAL 的孵化与毕业，项目现已被 LanceDB、Milvus 等系统采用。
 
 en:
   contacts:
     name: Chojan Shang ("PsiACE")
-    title: ASF Member | Open Source Engineer @ OceanBase (Ant Group)
+    title: Agent Systems Engineer | Senior Engineer at OceanBase (Ant Group)
     email: psiace@apache.org
     address: "Hangzhou, China"
     location: Hangzhou
@@ -152,45 +150,43 @@ en:
       url: https://twitter.com/repsiace
       displayText: "@repsiace"
 
-  position: ASF Member · Senior Engineer @ OceanBase (Ant Group)
+  position: Agent Systems Engineer · Senior Engineer at OceanBase (Ant Group) · ASF Member
 
-  tagline: ASF Member and open source engineer at the intersection of data infrastructure and generative AI.
+  tagline: Agent systems engineer at OceanBase focused on context products, database-native agent capabilities, and open source tools. Previously worked on Databend's core systems and led GraphRAG and GenAI platform engineering at NebulaGraph.
 
   jobs:
     - position: Senior Engineer
       company:
         name: OceanBase (Ant Group)
         link: https://www.oceanbase.com/
-      product:
-        name: AgentSeek
-        link: https://github.com/ob-labs/agentseek
       description:
-        - Lead developer of AgentSeek — building database-native agent capabilities and open source tooling around the OceanBase ecosystem.
-        - Drive AI / Agent integration with OceanBase open source, contributing to community operations and upstream / downstream collaboration.
+        - Build context products, database-native agent capabilities, and open source tools for OceanBase.
+        - Integrate AI and agents into OceanBase open source. Improve developer tooling and upstream and downstream collaboration.
       from: "Dec. 2025"
       to: "present"
       tags:
-        - AI / Agent
-        - Open Source
-        - Database
+        - Agent Engineering
+        - Context Engineering
+        - Databases
       location: Hangzhou, China
 
     - position: GenAI Platform Engineer
       company:
-        name: Vesoft Inc. (NebulaGraph)
-        link: https://www.nebula-graph.io/
+        name: Vesoft Inc.
+        link: ""
       product:
         name: NebulaGraph
-        link: https://github.com/vesoft-inc/nebula
+        link: https://www.nebula-graph.io/
+        parenthesized: true
       description:
-        - Owned the engineering of the NebulaGraph GenAI platform, optimizing context construction for complex domain Q&A.
-        - Co-designed and shipped Fusion GraphRAG, reaching ~95% answer accuracy in selected scenarios and cutting time-to-first-answer by 80% over public baselines under the same compute.
+        - Led NebulaGraph GenAI platform engineering, including context construction and retrieval for domain Q&A.
+        - Led Fusion GraphRAG design and delivery and integrated it into a deployable Q&A system.
       from: "Sep. 2024"
       to: "Dec. 2025"
       tags:
-        - GenAI
-        - Graph Database
         - GraphRAG
+        - Context Engineering
+        - Graph Databases
       location: Shanghai, China
 
     - position: Core Engineer
@@ -201,8 +197,8 @@ en:
         name: Databend
         link: https://github.com/datafuselabs/databend
       description:
-        - Founding team member; led major refactors, modular decomposition, compile-time perf, and the first continuous benchmark.
-        - Drove integrations with HuggingFace, lakeFS, KubeSphere across data lake / cloud-native scenarios.
+        - Founding team member who led major architecture changes and modularization. Also improved compile times and built the first continuous benchmark.
+        - Integrated Databend with HuggingFace, lakeFS, and KubeSphere to support data lake and cloud-native use cases.
       from: "Jul. 2021"
       to: "Aug. 2024"
       tags:
@@ -211,7 +207,7 @@ en:
         - Rust
       location: Remote
 
-  objective: Build trustworthy open source products that connect communities, users, and commercial teams — landing complex infrastructure in developer-friendly ways at global scale.
+  objective: Build agent systems for production, where context and execution state are manageable and traceable. Develop these capabilities into maintainable products and open protocols.
 
   education:
     - place:
@@ -235,33 +231,33 @@ en:
       location: Wuhan, China
 
   skills:
-    - AI / Agent Engineering
-    - Data Lakehouse / Object Storage
-    - Graph Database / GraphRAG
-    - Apache Project Maintenance
-    - Developer Relations & Advocacy
+    - Agent Runtime / Context Engineering
+    - Agent Protocols & Interoperability
+    - RAG / GraphRAG & Evaluation
+    - Distributed Systems / Data Infrastructure
 
   methodology:
-    - The Apache Way
-    - Developer-experience first
-    - Data-driven decisions
-    - Continuous delivery
+    - Explicit State & Failure Recovery
+    - Evaluation-driven Iteration
+    - Developer Experience First
+    - The Apache Way & Open Collaboration
 
   tools:
     - Rust / Python
+    - LLM APIs / Tool Calling
+    - ACP / MCP
     - Kubernetes / Docker
     - GitHub Actions
-    - MCP / ACP
 
   achievements:
-    - name: "AI / Agent in the open source ecosystem"
-      description: Creator / maintainer of the ACP Python SDK (~10M monthly downloads, used by Kimi, Mistral); core maintainer of bub, an open source agent framework for real-world multi-party collaboration.
+    - name: "Agent Client Protocol Python SDK"
+      description: Created and maintain the ACP Python SDK, with typed schemas, async transports, and lifecycle abstractions for agents, editors, and clients. It has over 100 million downloads and is used by products including kimi-cli and mistral-vibe.
 
-    - name: "ASF Member & Apache OpenDAL TLP"
-      description: Elected ASF Member; Committer / contributor to multiple Apache projects; helped take OpenDAL from incubation to graduation — now adopted at scale by LanceDB, Milvus, and others.
+    - name: "Bub and tape.systems"
+      description: Designed Bub, a hook-first agent runtime for shared environments and long-running work. Proposed the append-only tape model for agent history, state, and context, now used by Bub and DeepChat.
 
-    - name: "Open source operations for data infra"
-      description: Led DevRel at Databend, growing GitHub stars from 800+ to 8000+; multi-year OSPP community liaison.
+    - name: "Fusion GraphRAG"
+      description: Led Fusion GraphRAG design and delivery. It reached about 95% accuracy in selected scenarios and cut time to first usable answer by 80% against public baselines on the same compute.
 
-    - name: "Global tech writing & speaking"
-      description: Speaker at ApacheCon Asia, PyCon China, Rust China Conf, and Kubernetes Community Days on data infrastructure and GenAI / Agent.
+    - name: "ASF Member and Apache OpenDAL"
+      description: ASF Member and Committer or contributor to several Apache projects. Helped OpenDAL graduate from the Apache Incubator. LanceDB, Milvus, and other systems now use it.

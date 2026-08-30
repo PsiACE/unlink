@@ -1,6 +1,23 @@
 #import "../unlink.typ": vantage, term, skill, styled-link
 #let configuration = yaml("psiace-configuration.yaml")
 
+#let employer(job) = {
+  if job.company.link == "" {
+    emph(job.company.name)
+  } else {
+    emph(link(job.company.link, job.company.name))
+  }
+
+  if "product" in job {
+    if job.product.at("parenthesized", default: false) {
+      [ #styled-link(job.product.link)[(#job.product.name)]]
+    } else {
+      text(" - ")
+      styled-link(job.product.link, job.product.name)
+    }
+  }
+}
+
 #let render(cfg) = vantage(
   name: cfg.contacts.name,
   position: cfg.position,
@@ -26,7 +43,7 @@
 
     #for job in cfg.jobs [
       === #job.position \
-      _#link(job.company.link)[#job.company.name]_ - #styled-link(job.product.link)[#job.product.name] \
+      #employer(job) \
       #term[#job.from --- #job.to][#job.location]
 
       #for point in job.description [
