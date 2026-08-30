@@ -122,7 +122,7 @@ zh:
       description: 创建并维护 ACP Python SDK，为 Agent 与编辑器、客户端的互操作提供类型化 schema、异步 transport 和生命周期抽象。累计下载超 1 亿，被 kimi-cli、mistral-vibe 等产品使用。
 
     - name: "Bub 与 tape.systems"
-      description: 设计 Bub，一个面向共享环境与长期协作的 hook-first Agent runtime；提出以只追加记录组织 Agent 历史、状态与上下文的 tape 模型，已用于 Bub 与 DeepChat。
+      description: 设计与实现 Bub，一个面向共享环境与长期协作的 hook-first Agent runtime，已获得 1.6k+ GitHub Stars。提出以只追加记录组织 Agent 历史、状态与上下文的 tape 模型，该模型已用于 Bub 与 DeepChat。
 
     - name: "Fusion GraphRAG"
       description: 负责 Fusion GraphRAG 的设计与交付，选定业务场景问答精度约 95%；同等算力下，相比公开基线将首答可用时间缩短 80%。
@@ -254,7 +254,7 @@ en:
       description: Created and maintain the ACP Python SDK, with typed schemas, async transports, and lifecycle abstractions for agents, editors, and clients. It has over 100 million downloads and is used by products including kimi-cli and mistral-vibe.
 
     - name: "Bub and tape.systems"
-      description: Designed Bub, a hook-first agent runtime for shared environments and long-running work. Proposed the append-only tape model for agent history, state, and context, now used by Bub and DeepChat.
+      description: Designed and implemented Bub, a hook-first agent runtime for shared environments and long-running work, with 1.6k+ GitHub stars. Proposed the append-only tape model for agent history, state, and context, now used by Bub and DeepChat.
 
     - name: "Fusion GraphRAG"
       description: Led Fusion GraphRAG design and delivery. It reached about 95% accuracy in selected scenarios and cut time to first usable answer by 80% against public baselines on the same compute.
